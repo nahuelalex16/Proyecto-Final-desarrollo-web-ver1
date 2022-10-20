@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo" href="../index.html">Casablanca</a>
+        <nav>
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="./remeras.html">Remeras</a></li>
+                <li class="header__item"><a class="header__link" href="./jeans.html">Jeans</a></li>
+                <li class="header__item"><a class="header__link" href="./abrigos.html">Abrigos</a></li>
+                <li class="header__item"><a class="header__link" href="./pantalones.html">Pantalones</a></li>
+                <li class="header__item"><a class="header__link" href="./ropa_interior.html">Ropa Interior</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--BANNER CONTACTO-->
+        <section class="banner">
+            <div class="banner__container">
+                <h1 class="banner__titulo">¡CONTACTANOS!</h1>
+                <p class="banner__subtitulo">Lorem ipsum dolor sit.</p>
+            </div>
+            <img class="banner__img" src="../img/imagen1.jpg" alt="banner">
+        </section>
+        <!--FIN BANNER CONTACTO-->
+
+        <!--FORMULARIO CONTACTO-->
+        <section class="form">
+            <form action="#" method="get" enctype="text/plain">
+                <div class="form__container">
+                    <div class="form__div">
+                        <label class="form__desc" for="name">Nombre y Apellido</label><!--el atributo "name" de input y "for" de label deben coincidir-->
+                        <input class="form__input" type="text" name="name" id="name" required placeholder="Introduzca su nombre y apellido">
+                    </div>
+                    <div class="form__div">
+                        <label class="form__desc" for="email">Email</label>
+                        <input class="form__input" type="email" name="email" id="email" required placeholder="tucorreo@ejemplo.com">
+                    </div>
+                    <div class="form__div">
+                        <label class="form__desc" for="phone">Telefono</label>
+                        <input class="form__input" type="tel" name="phone" id="phone">
+                    </div>
+                    <div class="form__div">
+                        <label class="form__desc" for="asunto">Asunto</label>
+                        <input class="form__input" type="text" name="asunto" id="asunto">
+                    </div>
+                </div>
+                <div>
+                    <p><textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea></p>
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="Enviar formulario">
+                </div>
+
+                <!--GOOGLE MAPS-->
+                <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ciudad%20autonoma%20de%20buenos%20aires&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </form>
+        </section>
+        <!--FIN FORMULARIO CONTACTO-->
+
+    </main>
+    <!--PIE DE PAGINA-->
+    <footer class="footer">
+        <nav class="footer_nav">
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="./nosotros.html">Nosotros</a></li>
+                <li class="footer__item"><a class="footer__link" href="./contacto.html">Contacto</a></li>
+                <li class="footer__item"><a class="footer__link" href="./pagos_y_envios.html">Pagos y Envíos</a></li>
+            </ul>
+        </nav>
+    </footer> 
+    <!--FIN PIE DE PAGINA-->   
+</body>
+</html>
